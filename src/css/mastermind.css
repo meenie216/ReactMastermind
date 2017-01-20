@@ -1,0 +1,66 @@
+/* Styles go here */
+
+.btn {
+  margin: 0.25em;
+}
+
+.red {
+color: #f00 !important;
+}
+
+.white {
+  color:#fff !important;
+}
+
+.black {
+  color: #000 !important;
+}
+
+.blue {
+  color:#00f !important;
+}
+
+.green {
+  color: #0f0 !important;
+}
+
+.yellow {
+  color: #f6ff00 !important;
+}
+
+.item {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  font-size:16pt;
+  margin: 0.25em;
+  padding-top: 0.35em;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+
+.board {
+  background-color: #aaa;
+}
+
+.solution {
+  background-color: #888;
+  height: 50px;
+}
+
+.unsolved .item {
+  display: none;
+}
+
+.score .item {
+  font-size: 6pt;
+}
+
+.correct {
+  color: black;
+}
+
+.misplaced {
+  color: white;
+}
